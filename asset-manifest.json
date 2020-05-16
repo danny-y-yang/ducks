@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ducks/static/css/main.60135cee.chunk.css",
+    "main.js": "/ducks/static/js/main.c54f14ed.chunk.js",
+    "main.js.map": "/ducks/static/js/main.c54f14ed.chunk.js.map",
+    "runtime-main.js": "/ducks/static/js/runtime-main.b1bdac7d.js",
+    "runtime-main.js.map": "/ducks/static/js/runtime-main.b1bdac7d.js.map",
+    "static/js/2.43c113dc.chunk.js": "/ducks/static/js/2.43c113dc.chunk.js",
+    "static/js/2.43c113dc.chunk.js.map": "/ducks/static/js/2.43c113dc.chunk.js.map",
+    "index.html": "/ducks/index.html",
+    "precache-manifest.b32204e40601ab91487addddaa438462.js": "/ducks/precache-manifest.b32204e40601ab91487addddaa438462.js",
+    "service-worker.js": "/ducks/service-worker.js",
+    "static/css/main.60135cee.chunk.css.map": "/ducks/static/css/main.60135cee.chunk.css.map",
+    "static/js/2.43c113dc.chunk.js.LICENSE.txt": "/ducks/static/js/2.43c113dc.chunk.js.LICENSE.txt",
+    "static/media/peeking.gif": "/ducks/static/media/peeking.75e3a72a.gif",
+    "static/media/welcome.gif": "/ducks/static/media/welcome.e533d6e2.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1bdac7d.js",
+    "static/js/2.43c113dc.chunk.js",
+    "static/css/main.60135cee.chunk.css",
+    "static/js/main.c54f14ed.chunk.js"
+  ]
+}
