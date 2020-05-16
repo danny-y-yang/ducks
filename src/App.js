@@ -1,26 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './layouts/Header'
+import DuckImage from './layouts/DuckImage'
+import peekingRilakkuma from './assets/images/peeking.gif'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style = {mainContainerStyle} className="mainContainer">
+        <Header/>
+        <DuckImage/>
+      </div>
+      <div style={bottomContainerStyle}>
+        <div style={peekingStyle} >
+          <img src={peekingRilakkuma} alt="peekaboo!"></img>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default App;
+
+const mainContainerStyle = {
+  padding: "10%"
+}
+
+const bottomContainerStyle = {
+  position: "relative",
+  bottom: "0",
+  overflow: "hidden"
+}
+
+const peekingStyle = {
+  position: "relative",
+  left: "-124px"
+}
